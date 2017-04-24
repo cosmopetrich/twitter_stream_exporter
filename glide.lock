@@ -1,0 +1,53 @@
+hash: 318105f3a88c0ad33ae28d39c2db8db22f0c675ead2622d46cf2b82e687a444c
+updated: 2017-04-25T00:07:57.726719766+10:00
+imports:
+- name: github.com/beorn7/perks
+  version: 4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9
+  subpackages:
+  - quantile
+- name: github.com/cenkalti/backoff
+  version: 5d150e7eec023ce7a124856b37c68e54b4050ac7
+- name: github.com/dghubble/go-twitter
+  version: 2bdbe500add529557f5c9670fe8c904b1b1f08aa
+  subpackages:
+  - twitter
+- name: github.com/dghubble/oauth1
+  version: 70562a5920ad9b6ff03ef697c0f90ae569abbd2b
+- name: github.com/dghubble/sling
+  version: bbfb8293bd33a6baad33d718aacf66ef73a29f30
+- name: github.com/golang/protobuf
+  version: 2bba0603135d7d7f5cb73b2125beeda19c09f4ef
+  subpackages:
+  - proto
+- name: github.com/google/go-querystring
+  version: 53e6ce116135b80d037921a7fdd5138cf32d7a8a
+  subpackages:
+  - query
+- name: github.com/matttproud/golang_protobuf_extensions
+  version: c12348ce28de40eed0136aa2b644d0ee0650e56c
+  subpackages:
+  - pbutil
+- name: github.com/prometheus/client_golang
+  version: c5b7fccd204277076155f10851dad72b76a49317
+  subpackages:
+  - prometheus
+  - prometheus/promhttp
+- name: github.com/prometheus/client_model
+  version: 6f3806018612930941127f2a7c6c453ba2c527d2
+  subpackages:
+  - go
+- name: github.com/prometheus/common
+  version: 9e0844febd9e2856f839c9cb974fbd676d1755a8
+  subpackages:
+  - expfmt
+  - internal/bitbucket.org/ww/goautoneg
+  - model
+- name: github.com/prometheus/procfs
+  version: 332f6238064950a97bc3ed3f5421f6418537e707
+  subpackages:
+  - xfs
+- name: golang.org/x/net
+  version: d212a1ef2de2f5d441c327b8f26cf3ea3ea9f265
+  subpackages:
+  - context
+testImports: []
